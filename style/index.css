@@ -1,0 +1,11 @@
+h1{
+	font: 48px 'Lobster', cursive;
+	text-shadow: 4px 4px 4px #aaa;
+}
+h3{
+	font: 18px 'Railway', sans-serif;
+}
+div.header{
+	width: 100%;
+	text-align: center;
+}
