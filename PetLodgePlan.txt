@@ -1,0 +1,41 @@
+Pet Lodge
+
+Website should have following functions:
+	- homepage with:
+		- Summary of new pets for today
+		- Summary of leaving pets for today
+		- Summary of daycare pets
+		- Navigation:
+			- book a new stay
+			- search for booking
+			- check-in
+			- check-out
+			- examine/modify client details
+			- billing
+	- pages for each of the navigation items
+	- book a new stay:
+		- search for client
+		- add client
+		- stay type
+		- check-in date
+		- check-out date
+		- total for stay
+	- search for booking:
+		- table view of all bookings
+		- search input field which matches on any field, pet name, dates, type, etc.
+			- search will filter down table of bookings
+		- clicking on a booking will open booking page
+	- check-in
+		- will go to search page with a filter already applied for today's check-ins,
+		  clicking on a booking will apply check-in to booking after confirmation page
+	- check-out
+		- will go to search page with a filter already applied for current occupency and
+		  todays check-outs.
+	-examine/modify client details
+		- table view of clients
+		- search similar to bookings search
+		- clicking on a client result will open up client page
+	- billing
+		- view open and closed invoices
+		- search similar to booking and client pages
+		- clicking an invoice in the table will open up invoice page
